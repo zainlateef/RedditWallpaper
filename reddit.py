@@ -15,4 +15,5 @@ def getRedditUrls():
     for sub in r.subreddit('natureisfuckinglit').hot(limit=30):
         if(getattr(sub,"over_18",True)==False and getattr(sub,"post_hint","")=='image'and isImageUrl(getattr(sub,"url",""))):
             urls.append(sub.url)
-# post_hint: image
+    return urls
+

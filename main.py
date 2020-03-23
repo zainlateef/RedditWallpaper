@@ -1,4 +1,10 @@
+import time
 from wallpaper import set_desktop_background
+from reddit import getRedditUrls
 
 if __name__ == "__main__":
-    set_desktop_background("https://via.placeholder.com/200.png")
+    while True:
+        urls = getRedditUrls()
+        for url in urls:
+            set_desktop_background(url)
+            time.sleep(5)

@@ -1,0 +1,2 @@
+killAll sucks. need to work around that. It maximizes all minimized windows
+duplicate current background images because of the file extensions. need to fix that
