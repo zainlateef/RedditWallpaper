@@ -45,7 +45,3 @@ def download_file_from_url(url):
 def deleteFileIfExists(filepath):
     if os.path.exists(filepath):
         os.remove(filepath)
-
-
-if __name__ == "__main__":
-    set_desktop_background("https://via.placeholder.com/200.png")
