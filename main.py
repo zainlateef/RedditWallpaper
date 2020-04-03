@@ -8,4 +8,8 @@ if __name__ == "__main__":
         for url in urls:
             set_desktop_background(url)
             time.sleep(5)
-# argument for oldMac, subreddit of choice, time interval for changing in hours
+# argument for oldMac
+# subreddit of choice
+# parameters for subreddit, top 20 or whatever
+# time interval for changing in hours
+# option to disinclude images of certain dimensions
